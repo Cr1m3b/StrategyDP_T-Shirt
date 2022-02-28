@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace StrategyDP_T_Shirt.Models
 {
-    public class Tshirt
+    public class TShirt
     {
         public Color Color;
         public Fabric Fabric;
         public Size Size;
         public decimal Price { get; set; }
-        public Tshirt(Color color, Fabric fabric, Size size)
+        public TShirt(Color color, Fabric fabric, Size size)
         {
             Color = color;
             Fabric = fabric;

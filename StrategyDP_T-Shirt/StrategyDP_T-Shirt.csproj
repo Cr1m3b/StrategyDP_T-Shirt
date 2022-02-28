@@ -46,9 +46,14 @@
     <Compile Include="Enums\Color.cs" />
     <Compile Include="Enums\Fabric.cs" />
     <Compile Include="Enums\Size.cs" />
-    <Compile Include="Models\Tshirt.cs" />
+    <Compile Include="EshopContext\EShop.cs" />
+    <Compile Include="Models\TShirt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VariationStrategy\ColorVariationNormalStrategy.cs" />
+    <Compile Include="VariationStrategy\FabricVariationNormalStrategy.cs" />
+    <Compile Include="VariationStrategy\IVariationStrategy.cs" />
+    <Compile Include="VariationStrategy\SizeVariationNormalStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
