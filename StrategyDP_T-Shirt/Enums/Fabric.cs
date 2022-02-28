@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace StrategyDP_T_Shirt.Enums
 {
-    public enum Color
+    public enum Fabric
     {
-        BLUE,
-        GREEN,
-        INDIGO,
-        ORANGE,
-        RED,
-        VIOLET,
-        YELLOW
+        CASHMERE,
+        COTTON,
+        LINEN,
+        POLYESTER,
+        RAYON,
+        SILK,
+        WOOL
     }
 }

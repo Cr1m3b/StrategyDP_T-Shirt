@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace StrategyDP_T_Shirt.Enums
 {
-    public enum Color
+    public enum Size
     {
-        BLUE,
-        GREEN,
-        INDIGO,
-        ORANGE,
-        RED,
-        VIOLET,
-        YELLOW
+        XS, 
+        S,
+        M, 
+        L, 
+        XL, 
+        XXL, 
+        XXXL
     }
 }
