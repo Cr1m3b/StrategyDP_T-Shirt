@@ -23,7 +23,7 @@ namespace StrategyDP_T_Shirt.EshopContext
             {
                 variation.Cost(shirt);
             }
-            Console.WriteLine($"The final cost of your T-Shirt is: {shirt.Price} €");
+            Console.WriteLine($"The final cost of your T-Shirt is: {shirt.Price} Euros");
         }
     }
 }
