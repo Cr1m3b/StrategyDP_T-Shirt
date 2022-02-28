@@ -46,6 +46,7 @@
     <Compile Include="Enums\Color.cs" />
     <Compile Include="Enums\Fabric.cs" />
     <Compile Include="Enums\Size.cs" />
+    <Compile Include="Models\Tshirt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
