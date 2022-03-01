@@ -48,6 +48,10 @@
     <Compile Include="Enums\Size.cs" />
     <Compile Include="EshopContext\EShop.cs" />
     <Compile Include="Models\TShirt.cs" />
+    <Compile Include="PaymentMethodStrategy\BankTransferStrategy.cs" />
+    <Compile Include="PaymentMethodStrategy\CashStrategy.cs" />
+    <Compile Include="PaymentMethodStrategy\DebitCardStrategy.cs" />
+    <Compile Include="PaymentMethodStrategy\IPaymentMethodStrategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VariationStrategy\ColorVariationNormalStrategy.cs" />
@@ -58,5 +62,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
