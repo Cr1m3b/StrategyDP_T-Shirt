@@ -27,6 +27,7 @@ namespace StrategyDP_T_Shirt
             var eshop = new EShop();
             eshop.SetVariation(ShopNormalVariations);
             eshop.CalculateCost(shirt);
+            
 
             Console.WriteLine("Choose payment method: ");
             Console.WriteLine("1- Bank Transfer");
@@ -43,7 +44,7 @@ namespace StrategyDP_T_Shirt
                 default: Console.WriteLine("Invalid input"); break;
 
             }
-
+            eshop.Discount(shirt, 0.5m);
             eshop.PayTShirt(shirt.Price);
         }
     }

@@ -31,5 +31,7 @@ namespace StrategyDP_T_Shirt.VariationStrategy
         {
             Tshirt.Price += sizeVariation[Tshirt.Size];
         }
+
+        
     }
 }

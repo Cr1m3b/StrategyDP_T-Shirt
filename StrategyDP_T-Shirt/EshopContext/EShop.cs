@@ -48,7 +48,10 @@ namespace StrategyDP_T_Shirt.EshopContext
 
         }
 
-
+        public void Discount(TShirt shirt,decimal? percentance)
+        {
+            paymentMethods.Discount(shirt,percentance);
+        }
 
     }
 }
